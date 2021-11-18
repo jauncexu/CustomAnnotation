@@ -1,0 +1,10 @@
+自定义注解框架
+1.仿XUtils手写注解绑定布局  @ContentView  == setContentView(R.layout.ac_main)
+2.仿XUtils手写注解绑定控件  @BindView  == findViewById(R.id.button1)
+3.仿XUtils手写注解绑定事件  @OnClick  == setOnClickListener
+4.兼容性注解事件
+
+@OnClickCommon
+@OnClickLongCommon
+@OnDragCommon
+修改对应的注解内容，只需在OnBaseCommon子类修改

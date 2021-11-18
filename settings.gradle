@@ -1,0 +1,3 @@
+include ':ioc_annotation_lib'
+include ':app'
+rootProject.name = "CustomAnnotation"
